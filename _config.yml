@@ -1,0 +1,63 @@
+title: HUMAN 2023
+minimal_mistakes_skin: default
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
+
+footer:
+  links:
+    - label: "SANER"
+      icon: "fas fa-chalkboard-teacher"
+      url: "https://saner2023.must.edu.mo/"
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: splash
+      author_profile: false
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.5"
+        overlay_image: /assets/images/human_banner_friendly.jpg
+      excerpt: "2nd Workshop on Advances in Human-Centric Experiments in Software Engineering"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
