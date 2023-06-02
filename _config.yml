@@ -1,4 +1,11 @@
-title: HUMAN 2023
+human:
+  human: &title HUMAN 2024
+  full_name: &full_name 2nd Workshop on Advances in Human-Centric Experiments in Software Engineering
+  year: &year 2024
+  saner: &saner SANER 2024
+  saner_url: &saner_url https://conf.researchr.org/home/saner-2024
+  
+title: *title
 minimal_mistakes_skin: default
 search: true
 
@@ -39,7 +46,7 @@ footer:
   links:
     - label: "SANER"
       icon: "fas fa-chalkboard-teacher"
-      url: "https://saner2023.must.edu.mo/"
+      url: *saner_url
 
 defaults:
   # _pages
@@ -53,7 +60,8 @@ defaults:
         overlay_color: "#000"
         overlay_filter: "0.5"
         overlay_image: /assets/images/human_banner_friendly.jpg
-      excerpt: "2nd Workshop on Advances in Human-Centric Experiments in Software Engineering"
+      excerpt: *full_name
+
 
 category_archive:
   type: liquid
