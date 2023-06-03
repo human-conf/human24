@@ -1,9 +1,17 @@
 human:
   human: &title HUMAN 2024
   full_name: &full_name 2nd Workshop on Advances in Human-Centric Experiments in Software Engineering
+  url: https://human-conf.github.io/human24/
   year: &year 2024
   saner: &saner SANER 2024
   saner_url: &saner_url https://conf.researchr.org/home/saner-2024
+  dates:
+    submission: November 10, 2023
+    notification: December 8, 2023
+    camera_ready: January 12, 2024
+    workshop: TBA
+  easychair_url: https://easychair.org/conferences/?conf=human23
+  hashtag: human_workshop2024
   
 title: *title
 minimal_mistakes_skin: default
@@ -44,7 +52,7 @@ plugins:
 
 footer:
   links:
-    - label: "SANER"
+    - label: *saner
       icon: "fas fa-chalkboard-teacher"
       url: *saner_url
 
