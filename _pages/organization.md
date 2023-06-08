@@ -39,7 +39,7 @@ excerpt: "The team behind."
     </span>
 </div>
 <div class="three-column">
-    <img class="align-center selfy" alt="arpad-beszedes" src="assets/images/arpad_beszedes.png"/>
+    <img class="align-center selfy" alt="arpad-beszedes" src="assets/images/no_pic.jpg"/>
     <a class="name" href="http://www.inf.u-szeged.hu/~antal">Gábor Antal, Ph.D.</a><br/>
     <span class="emph">
       <img src="assets/images/icon_person.svg" style="vertical-align: middle;" width="13" height="13"> Research Fellow <br/> 

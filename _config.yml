@@ -10,7 +10,7 @@ human:
     notification: December 8, 2023
     camera_ready: January 12, 2024
     workshop: TBA
-  easychair_url: https://easychair.org/conferences/?conf=human23
+  easychair_url: https://easychair.org # TODO
   hashtag: human_workshop2024
   
 title: *title
@@ -55,6 +55,9 @@ footer:
     - label: *saner
       icon: "fas fa-chalkboard-teacher"
       url: *saner_url
+    - label: HUMAN-series
+      icon: "fas fa-home"
+      url: https://human-conf.github.io
 
 defaults:
   # _pages
