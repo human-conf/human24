@@ -5,27 +5,23 @@ layout: splash
 excerpt: "Your contribution."
 ---
 
-## Important Dates
+{% include_relative important_dates.md %}
 
-| Event            | Date               | Timezone                                                  	    |
-|------------------|--------------------|-------------------------------------------------------------------|
-| **Submission**   | ~~December 16, 2022~~, December 18, 2022 (extension) | [AoE](https://www.timeanddate.com/time/zones/aoe)         	    |
-| **Notification** | January 6, 2023	  | [AoE](https://www.timeanddate.com/time/zones/aoe)         	    |
-| **Camera-Ready** | January 13, 2023	  | [AoE](https://www.timeanddate.com/time/zones/aoe)         	    |
 
 <p>Right now, it is:<br/>
-<iframe src="https://free.timeanddate.com/clock/i8kw6nbv/n3399/fs16/fcfff/tc3d4144/ftb/bac3d4144/tt0/tw0/td2/th2/ta1/tb4" frameborder="0" width="153" height="40"></iframe>
+<iframe src="https://free.timeanddate.com/clock/i8kw6nbv/n3399/fs16/fc000/tcfff/ftb/bacfff/tt0/tw0/td2/th2/ta1/tb4" frameborder="0" width="153" height="40"></iframe>
 </p>
+
 
 ## Motivation
 
 Software is developed by humans and for humans - but often without properly considering humans. A large part of **empirical studies in software engineering** is based on human-centric experiments - the empirical evaluation of tools, processes, or models that involve human participants (e.g., the usability evaluation of development environments and other tools). Those studies are **designed to the best of the researchers’ knowledge**; yet because their primary field is usually computer science rather than humanities, these experiments are often **suboptimal from a methodological perspective** - they are conducted ad hoc with students or the researchers themselves. In contrast, human studies techniques are well established in psychology, social sciences, or other fields of humanities. 
 
-The **2nd Workshop on Advances in Human-Centric Experiments in Software Engineering (HUMAN 2023)** aims to bring together researchers interested in how the discipline of **software engineering** can **benefit** from human participation through **human-centric experiments**. Therefore, the workshop strives to actively involve **researchers from fields other than computer science** (e.g., psychology or social sciences) who have in-depth methodological knowledge of applicable techniques for human-centered experiments.
+The **{{ site.human.full_name }} ({{ site.human.human }})** aims to bring together researchers interested in how the discipline of **software engineering** can **benefit** from human participation through **human-centric experiments**. Therefore, the workshop strives to actively involve **researchers from fields other than computer science** (e.g., psychology or social sciences) who have in-depth methodological knowledge of applicable techniques for human-centered experiments.
 
 ## Topics of Interest
 
-The contributions should be of direct interest to **software engineering**, especially for the areas of analysis, development, and (re)engineering. In particular:
+The contributions should be of direct interest to **software engineering**; for the areas of development in general, as well as analysis, evolution and (re)engineering. In particular:
 
 + Empirical evaluations of software tools, methods, and (re)engineering.
 + Human aspects in software development, analysis, and evolution, including collaborative software (re)engineering practices.
@@ -34,23 +30,33 @@ The contributions should be of direct interest to **software engineering**, espe
 + Qualitative analysis in software analysis, development, and (re)engineering.
 + Social aspects of software engineering practice, including gender, equity, and diversity.
 
-**Additional topics** involving both software engineering and human aspects are also welcome. 
+The topics of interest listed for the **SANER conference** are all welcome, as well as 
+any **additional topics** involving both software engineering and human aspects. 
 
 ## Categories
 
-Submitted papers should fit into one of the following categories:
+Submitted papers should fit into one or more of the following categories (exact categories need not to be provided upon submission):
 
-+ **Empirical Papers**: Empirical utilization or evaluation of theoretical or practical tools, methodologies, or techniques of humanities to address software engineering related problems and research issues. We encourage researchers to submit parts of their already presented works about the successful application of humanities related methodologies. Negative results are also welcomed.
++ **Empirical Papers**: Empirical utilization or evaluation of theoretical or practical tools, methodologies, or techniques of humanities to address software engineering related problems and research issues. Negative results are welcomed.
 + **Methodological Papers**: Adaptation of theoretical or practical frameworks, mindsets, or methodologies of humanities in the context of software engineering related problems and research issues. Submissions may contain a methodological description of the possible application of humanities related methods without any empirical evaluation yet.
+
+## Paper Formats
+
+Orthogonal to the paper Categories, the following Paper Formats will be accepted:
+
++ **Full Papers**: Up to 8-page papers (plus 2 additional pages for references only) describing unpublished original research results related to the workshop topics;
++ **Work in Progress Papers**: Up to 4-page papers (including references) describing both preliminary work or new insights in previous work;
++ **Extended Abstracts**: Up to 2-page papers (including references) describing a position or opinion statement, proposing novel or even groundbreaking research topics, visions, experimental tools, or any other contribution that call for further discussion and research in the community. Authors are expected to provide inspiring discussion and the relevant information (e.g., background, proposed direction, challenges and insights) for the proposed direction.
+
+Work in Progress papers and Extended Abstracts may include parts of already presented works such as shorter versions of journal papers authored by the submitters in the topics of applying humanities related methodologies to software engineering. In this case, authors are required to clearly indicate previous publications on which the submission is based.
 
 ## Submission
 
 All submissions need to:
 
-+ ... be in **english**
-+ ... not exceed **8 pages** including references, figures, and appendices
++ ... be in **English**
 + ... come in **PDF format**
-+ ... be uploaded electronically in via **[EasyChair](https://easychair.org/conferences/?conf=human23)**
++ ... be uploaded electronically in via **[EasyChair]**
 + ... conform to the **[IEEE Conference Proceedings Formatting Guidelines](https://www.ieee.org/conferences_events/conferences/publishing/templates.html)**
 + ... comply with the **[IEEE Policy on Authorship](https://www.ieee.org/publications_standards/publications/rights/authorrightsresponsibilities.html)**
 
@@ -63,8 +69,8 @@ As we follow the full double-blind review process as determined by the main conf
 + Avoid mentioning the **institution** or **organization** where the work was done. For example, if the evaluation involves a user study of students in the CS 101 course you teach, you might say, "The study participants consist of 200 students in an introductory CS course." You can, of course, add the institutional information in the template. 
 + Avoid linking directly to **code repositories** or **tool deployments** that may reveal your identity. You can either indicate that you will only provide a link to the code or deployment in the camera-ready version or include links to anonymized repositories. When creating such repositories, it may be good practice to ask someone on your team to test the anonymization of the repository and its content. 
 
-Program committee members are asked to consider the principle of double-blinding when reviewing papers and therefore not to require full **availability** of artifacts at the time of submission. Submissions that do not meet the above formatting, submission, or double-blind specifications or that are not will be **rejected without review**.
+Submissions that do not meet the above formatting, submission, or double-blind specifications or that are not will be **rejected without review**.
 
 ## Publication
 
-All accepted workshop papers will be published together with the SANER 2023 proceedings.
+All accepted workshop papers will be published together with the {{ site.human.saner }} proceedings.
