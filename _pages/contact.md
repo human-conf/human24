@@ -13,7 +13,7 @@ If you have any questions or suggestions, you can reach us at the following e-ma
 
 ## Further Links
 
-The {{ site.human.full_name }} is a workshop and co-located with the {{ site.human.saner }} conference. Submission is made via EasyChair. For further information, see:
+The {{ site.human.full_name }} is a workshop co-located with the {{ site.human.saner }} conference. Submission is made via EasyChair. For further information see:
 
 + **[HUMAN-series](https://human-conf.github.io/)**
 + **[{{ site.human.saner }}]({{ site.human.saner_url }})**
