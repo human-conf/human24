@@ -12,12 +12,15 @@ excerpt: "Your contribution."
 <iframe src="https://free.timeanddate.com/clock/i8kw6nbv/n3399/fs16/fc000/tcfff/ftb/bacfff/tt0/tw0/td2/th2/ta1/tb4" frameborder="0" width="153" height="40"></iframe>
 </p>
 
-
 ## Motivation
 
 Software is developed by humans and for humans - but often without properly considering humans. A large part of **empirical studies in software engineering** is based on human-centric experiments - the empirical evaluation of tools, processes, or models that involve human participants (e.g., the usability evaluation of development environments and other tools). Those studies are **designed to the best of the researchers’ knowledge**; yet because their primary field is usually computer science rather than humanities, these experiments are often **suboptimal from a methodological perspective** - they are conducted ad hoc with students or the researchers themselves. In contrast, human studies techniques are well established in psychology, social sciences, or other fields of humanities. 
 
 The **{{ site.human.full_name }} ({{ site.human.human }})** aims to bring together researchers interested in how the discipline of **software engineering** can **benefit** from human participation through **human-centric experiments**. Therefore, the workshop strives to actively involve **researchers from fields other than computer science** (e.g., psychology or social sciences) who have in-depth methodological knowledge of applicable techniques for human-centered experiments.
+
+<p>
+  <img class="align-center" style="width: 60%;" src="assets/images/santa.png"/>
+</p>
 
 ## Topics of Interest
 
@@ -56,7 +59,7 @@ All submissions need to:
 
 + ... be in **English**
 + ... come in **PDF format**
-+ ... be uploaded electronically in via **[EasyChair]**
++ ... be uploaded electronically in via **[EasyChair]({{ site.human.easychair_url }})**
 + ... conform to the **[IEEE Conference Proceedings Formatting Guidelines](https://www.ieee.org/conferences_events/conferences/publishing/templates.html)**
 + ... comply with the **[IEEE Policy on Authorship](https://www.ieee.org/publications_standards/publications/rights/authorrightsresponsibilities.html)**
 
