@@ -72,7 +72,7 @@ As we follow the full double-blind review process as determined by the main conf
 + Avoid mentioning the **institution** or **organization** where the work was done. For example, if the evaluation involves a user study of students in the CS 101 course you teach, you might say, "The study participants consist of 200 students in an introductory CS course." You can, of course, add the institutional information in the template. 
 + Avoid linking directly to **code repositories** or **tool deployments** that may reveal your identity. You can either indicate that you will only provide a link to the code or deployment in the camera-ready version or include links to anonymized repositories. When creating such repositories, it may be good practice to ask someone on your team to test the anonymization of the repository and its content. 
 
-Submissions that do not meet the above formatting, submission, or double-blind specifications or that are not will be **rejected without review**.
+Submissions that do not meet the above formatting, submission, or double-blind specifications will be **rejected without review**.
 
 ## Publication
 
