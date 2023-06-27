@@ -10,7 +10,7 @@ human:
     notification: December 8, 2023
     camera_ready: January 12, 2024
     workshop: TBA
-  easychair_url: https://easychair.org # TODO
+  easychair_url: https://easychair.org/conferences/?conf=human24
   hashtag: human_workshop2024
   
 title: *title
