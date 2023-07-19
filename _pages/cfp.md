@@ -74,6 +74,11 @@ As we follow the full double-blind review process as determined by the main conf
 
 Submissions that do not meet the above formatting, submission, or double-blind specifications will be **rejected without review**.
 
+## Attendance
+
+Each accepted paper needs presented in person at the conference.
+More information on participating is available on the [{{ site.human.saner }}]({{ site.human.saner_url }}) website.  
+
 ## Publication
 
 All accepted workshop papers will be published together with the {{ site.human.saner }} proceedings.
