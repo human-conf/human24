@@ -53,4 +53,15 @@ excerpt: "The team behind."
 
 ## Program Committee
 
-TBA
+- [Bonita Sharif](https://shbonita.github.io), University of Nebraska - Lincoln
+- [Christian Wolff](http://mi.ur.de), Media Computing, Regensburg University
+- Chun Yong Chong, Monash University
+- Domenico Gigante, University of Bari "A. Moro"
+- Dror Feitelson, Hebrew University
+- Emilia Mendes, Blekinge Institute of Technology and Oulu University
+- [Erika Abraham](http://ths.rwth-aachen.de/people/erika-abraham/), RWTH Aachen University
+- [Erika Griechisch](http://www.inf.u-szeged.hu/~grerika), Cursor Insight
+- [Gabor Nemeth](http://www.inf.u-szeged.hu/~gnemeth), University of Szeged, Institute of Informatics
+- Gina Bai, North Carolina State University
+- Kelly Blincoe, The University of Auckland
+- Norman Peitek, Saarland University
