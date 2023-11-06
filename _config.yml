@@ -7,6 +7,7 @@ human:
   saner_url: &saner_url https://conf.researchr.org/home/saner-2024
   dates:
     submission: November 10, 2023
+    extension: November 13, 2023
     notification: December 8, 2023
     camera_ready: January 12, 2024
     workshop: March 12, 2024
